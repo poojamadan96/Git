@@ -1,0 +1,6 @@
+Suppose I am making changes to my master branch then I checkout to new branch then all changes of master will by default go there to my checkout a branch.
+I can make more changes to a branch and can come back to master anytime and merge that branch using 
+branch merge a
+If suppose I have created a 2nd branch name problem branch then I made changes to master branch then those chnages will also replicate to problem as well as a branch
+But If I have merge the a branch to the master then those chnages wont be incorporated in my problem branch so in that case if I make chnages to the same file using the problem branch also and try to merge the problem in master then it will show thw conflict bcz master has already got a diff version of that file.
+So For that we need to fix the conflicts by removing the chnages and then only we can merge
